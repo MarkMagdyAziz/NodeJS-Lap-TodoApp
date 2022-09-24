@@ -42,7 +42,7 @@ function handleUpdate(id, todoBody) {
         }
         else {
             // const found = todos.some(el => el.id === undefined);
-            if (found) newTodos = [...newTodos, element];
+           newTodos = [...newTodos, element];
         }
 
     })
